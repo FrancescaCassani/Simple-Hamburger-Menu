@@ -2,17 +2,24 @@
 var navbar = document.querySelector(".navbar")
 var hamb = document.querySelector(".hamb")
 
-//Definizione funzione toggle
+//Definizione funzione toggle menu
 function toggleHamb(){
-  navbar.classList.toggle("showNav")
-  hamb.classList.toggle("hideNav")
+  navbar.classList.toggle("showNav");
+  hamb.classList.toggle("hideNav");
 }
+
+
 
 //Invocazione funzione all'evento click
 hamb.addEventListener("click", toggleHamb)
 
 
-//------> variante hamb.addEventListener("click", function() {
+
+
+
+
+//------> variante 
+// hamb.addEventListener("click", function() {
 //   if(hamb.classList.contains("showNav")) {
 //     hamb.classList.remove("showNav");
 //     console.log("click hamburger");
