@@ -12,6 +12,15 @@ function toggleHamb(){
 hamb.addEventListener("click", toggleHamb)
 
 
+//------> variante hamb.addEventListener("click", function() {
+//   if(hamb.classList.contains("showNav")) {
+//     hamb.classList.remove("showNav");
+//     console.log("click hamburger");
+//   } else {
+//     hamb.classList.add("showNav");
+//   }
+// })
+
 //Vars menu link
 var menuLinks = document.querySelectorAll(".menuLink")
 
